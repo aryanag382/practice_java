@@ -5,6 +5,11 @@ public class day2 {
         car1.company="Tata";
         car1.speed=100;
         car1.car();
+        vehicle car2= new vehicle();
+        car2.color="red";
+        car2.company="kia";
+        car2.speed=90;
+        car2.car();
 
     }
 }
