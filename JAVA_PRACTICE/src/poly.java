@@ -1,14 +1,16 @@
 public class poly {
-    public int cal(int a,int b){
-        return a+b;
+    public void cal() {
+        System.out.println("lets goo");
     }
-    public double cal(double a,double b){
-       return a+b;
+     static class car extends poly{
+         public void cal(){
+            System.out.println("hello");
+        }
     }
-// method overloading
+
+// method overriding
     public static void main(String[] args) {
-        poly p= new poly();
-        System.out.println(p.cal(5,6));
-        System.out.println(p.cal(5.5,6.5));;
+       car c= new car();
+       c.cal();
     }
 }
