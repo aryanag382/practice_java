@@ -3,7 +3,7 @@ public class Bank {
     private int account_number;
     int amount;
       public void deposit(int amount) {
-          if (balance > 0) {
+          if (amount > 0) {
              this.balance += amount;
               System.out.println("remaining balance =" + balance);
           } else {
